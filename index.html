@@ -497,10 +497,10 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label class="modal-form-label" for="phone">Phone</label>
+            <label class="modal-form-label" for="user-phone">Phone</label>
             <div class="modal-label-container">
               <input
-                id="user-name"
+                id="user-phone"
                 name="user-name"
                 type="text"
                 class="label-input"
@@ -511,10 +511,10 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label class="modal-form-label" for="email">Email</label>
+            <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-label-container">
               <input
-                id="user-name"
+                id="user-email"
                 name="user-name"
                 type="text"
                 class="label-input"
@@ -525,7 +525,7 @@
             </div>
           </div>
           <div class="form-container">
-            <label class="modal-form-label">Comment</label>
+            <label for="user-comment" class="modal-form-label">Comment</label>
             <textarea
               id="user-comment"
               name="user-comment"
@@ -533,6 +533,10 @@
               class="form-textarea"
             ></textarea>
           </div>
+          <label for="user-privacy" class="checkbox-text">
+            I accept the terms and conditions of the
+            <a class="modal-link" href="">Privacy Policy</a>
+          </label>
           <div class="checkbox-container">
             <input
               id="user-privacy"
@@ -546,10 +550,6 @@
                 <use href="./images/icons.svg#icon-check-mark"></use>
               </svg>
             </span>
-            <label for="user-privacy" class="checkbox-text">
-              I accept the terms and conditions of the
-              <a class="modal-link" href="">Privacy Policy</a>
-            </label>
           </div>
           <button class="form-btn" type="button">Send</button>
         </form>

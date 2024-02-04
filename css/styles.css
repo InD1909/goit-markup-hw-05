@@ -626,10 +626,14 @@ ul {
 
 }
 
-.label-input:focus+.label-icon {
+.label-input:focus {
     border-color: #4D5AE5;
+}
+
+.label-icon:focus {
     fill: #4D5AE5;
 }
+
 
 .label-icon {
     position: absolute;
