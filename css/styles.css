@@ -630,10 +630,15 @@ ul {
     border-color: #4D5AE5;
 }
 
-.label-icon:focus {
+.label-input:focus+.label-icon {
+
     fill: #4D5AE5;
+
 }
 
+/* .label-icon:focus {
+    fill: #4D5AE5;
+} */
 
 .label-icon {
     position: absolute;
